@@ -1,8 +1,5 @@
 streamlit
-pandas
-plotly.express
-matplotlib.pyplot
 plotly
 seaborn
 matplotlib
-plotly.figure_factory
+
