@@ -5,8 +5,10 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.figure_factory as ff
+import zipfile
 
-df = pd.read_csv('athlete.csv')
+zf = zipfile.ZipFile("athlete.zip") 
+df = pd.read_csv(zf.open('athlete.csv'))
 region_df = pd.read_csv('noc_regions.csv')
 
 df = pre.preprocess(df,region_df)
