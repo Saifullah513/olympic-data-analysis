@@ -1,7 +1,7 @@
  # Olympic Data Analysis
 
 
- Created a web Application for the analysis of olympic history using Streamlit, Seaborn, Polotly and Python.
+ Created a web Application for the analysis of olympic history using Streamlit, Seaborn, Plotly and Python.
 
 
 ## LIVE SITE
